@@ -1,0 +1,108 @@
+<!--Tables-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>HUMCOM1 | Sample Webpage</title>
+        <meta name="author" content="Glenn Vincent Joe L. Baday">
+        <meta name="Description" content="HTML Tables">
+        <meta name="viewport" content="device-width, inital-scale=1">
+    </head>
+    <body>
+        <font face="courier new" size="5pt">
+            <center><h1>HTML Tables</h1>
+                <table width="75%" border="1px" frame="void"> <!--can be absolute value or percentage or relative-->
+                    <!--Header of table-->
+                    <thead align="left">
+                        <th bgcolor="lightblue">First Name</th>
+                        <th bgcolor="lightblue">Last Name</th>
+                        <th bgcolor="lightblue">Age</th>
+                    </thead>
+                    <!--Body of table-->
+                    <tbody>
+                    <!--for each tr there are equal amout of td-->
+                    <!--we have 3 tr and inside we have 3 td for each of them-->
+                        <tr>
+                            <td bgcolor="yellow">Pedro</td>
+                            <td>Penduko</td>
+                            <td>18</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="yellow">Juan</td>
+                            <td>Tamad</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <td bgcolor="yellow">De la Cruz</td>
+                            <td>Juan</td>
+                            <td>20</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Table Span</h2>
+                <table width="33.33%" border="1px">
+                    <thead align="left">
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="2">1 + 2</td><!--row 1 column 1 spans to column 2-->
+                            <td>3</td>
+                            <!-- <td>3</td> -->
+                        </tr>
+                        <tr>
+                            <td rowspan="2">4 + 7</td><!--row 1 spans below by 1 cell-->
+                            <td colspan="2">5 + 6</td>
+                            <!-- <td>6</td> -->
+                        </tr>
+                        <tr>
+                            <td rowspan="2">8 + 11</td>
+                            <td>9</td>
+                            <!-- <td>9</td> -->
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>12</td>
+                            <!-- <td>12</td> -->
+                        </tr>
+                    </tbody>
+                </table>
+                <h2>Padding and Spacing</h2>
+                <table width="33.33%" border="1px" cellpadding="20px" cellspacing="10px">
+                    <!--Padding is added inside the cell while spacing is 
+                        added outside the cell but inside the table-->
+                    <thead align="left">
+                        <th>A</th>
+                        <th>B</th>
+                        <th>C</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>5</td>
+                            <td>6</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>9</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </font>
+    </body>
+
+</html>

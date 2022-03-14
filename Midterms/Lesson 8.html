@@ -1,0 +1,41 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Glenn Vincent Joe L. Baday">
+        <meta name="Description" content="HTML Media">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HUMCOM1 | Forms</title>
+    </head>
+    <!--Forms
+            tags:
+                label (it means what it is... a label)    
+                input (defines the label attribute)
+                    ex. what type? what name?
+                types
+                    radio, password, text, checkbox, submit
+    -->
+    <body>
+        <font face="courier new" size="5pt">
+            <h1>Registration Form</h1>
+            <form>
+                <label>First name: </label><input type="text" name="fName"><br><br>
+                <label>Last name: </label><input type="text" name="lName"><br><br>
+                <label>Date of birth: </label><input type="date" name="DOB">
+                <label>Age: </label><input type="number" name="age" min="18" max="124"><br><br>
+                <label>Gender: </label><br><br>
+                <input type="radio" name="Gender"> Male<br><br>
+                <input type="radio" name="Gender"> Female<br><br>
+                <input type="radio" name="Gender"> Other<br><br>
+                <label>Password: </label><input type="password" name="pass"><br><br>
+                <label>Confirm Password: </label><input type="password" name="cPass"><br><br>
+                <label>Favorite Color: </label><input type="color" name="fCol"><br><br>
+                <label>Maidenless? </label><input type="radio" name="yes"> yes
+                <input type="radio" name="yes"> no <br><br>
+                <label>Do you agree to ToS: </label><input type="checkbox" name="tos"><br><br>
+                <!--for aesthetics purposes only-->
+                <input type="submit" name="black" style="padding:10px; font-size: 20px; width:33.33%; font-family: courier new;">
+            </form>
+        </font>
+    </body>
+</html>

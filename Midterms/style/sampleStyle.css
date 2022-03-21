@@ -1,0 +1,29 @@
+*{
+    background: url(/HUMCOM-Baday-1/Midterms/Resources/img/Background.jpg);
+    box-sizing: border-box;
+    margin: auto 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+h3{
+    color:yellowgreen;
+    text-align: right;
+    text-shadow: black;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    margin-top: 20px;
+    font-size: 24px;
+}
+.par1{
+    font-size:medium;
+    text-indent: 100px;
+}
+#solo{
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+#title-color{
+    background-color:blueviolet;
+}
